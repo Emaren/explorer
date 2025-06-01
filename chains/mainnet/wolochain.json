@@ -1,0 +1,32 @@
+{
+  "chain_name": "wolochain",
+  "coingecko": "wolochain",
+  "api": [
+    { "provider": "Wolo Remote", "address": "https://node.aoe2hdbets.com:1317" },
+    { "provider": "Local",      "address": "http://localhost:1317" }
+  ],
+  "rpc": [
+    { "provider": "Wolo Remote", "address": "https://node.aoe2hdbets.com:26657" },
+    { "provider": "Local",      "address": "http://localhost:26657" }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.5",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "wolo",
+  "logo": "/logos/wolochain.svg",
+  "theme_color": "#FFD700",
+  "assets": [
+    {
+      "base": "uwolo",
+      "symbol": "WOLO",
+      "exponent": "6",
+      "coingecko_id": "wolochain",
+      "logo": "/logos/wolochain.svg"
+    }
+  ],
+  "features": [
+    "stargate",
+    "ibc-transfer"
+  ]
+}

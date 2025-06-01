@@ -1,0 +1,17 @@
+{
+    "rewrites": [
+      {
+        "source": "/cosmos/:path*",
+        "destination": "http://142.59.71.121:1317/cosmos/:path*"
+      },
+      {
+        "source": "/tx/:path*",
+        "destination": "http://142.59.71.121:1317/tx/:path*"
+      },
+      {
+        "source": "/bank/:path*",
+        "destination": "http://142.59.71.121:1317/bank/:path*"
+      }
+    ]
+  }
+  

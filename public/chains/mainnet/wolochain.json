@@ -1,0 +1,34 @@
+{
+    "chain_id": "wolochain",
+    "chain_name": "Wolochain",
+    "rpc":  "https://node.aoe2hdbets.com:26657",
+    "rest": "https://node.aoe2hdbets.com:1317",
+    "bech32_prefix": "wolo",
+    "currency": {
+      "coinDenom": "Wolo",
+      "coinMinimalDenom": "uwolo",
+      "coinDecimals": 6,
+      "coinGeckoId": "wolochain"
+    },
+    "feeCurrencies": [
+      {
+        "coinDenom": "Wolo",
+        "coinMinimalDenom": "uwolo",
+        "coinDecimals": 6,
+        "gasPriceStep": {
+          "low": 0.01,
+          "average": 0.025,
+          "high": 0.04
+        }
+      }
+    ],
+    "stakeCurrency": {
+      "coinDenom": "Wolo",
+      "coinMinimalDenom": "uwolo",
+      "coinDecimals": 6
+    },
+    "bip44": {
+      "coinType": 118
+    },
+    "features": ["stargate", "ibc-transfer"]
+  }
